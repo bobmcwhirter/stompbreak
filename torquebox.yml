@@ -1,0 +1,12 @@
+
+stomp:
+  stomplets:
+    heartbeat:
+      class: HeartbeatStomplet
+      route: /heartbeat
+    broadcast:
+      class: BroadcastStomplet
+      route: /broadcast
+    echo:
+      class: EchoStomplet
+      route: /echo
