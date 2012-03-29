@@ -1,6 +1,7 @@
 require 'rubygems'
-require 'sinatra'
+require "sinatra"
+require "sinatra/reloader" 
 
-get '/' do
-  erb :index
+get '/whatever' do
+  render :index
 end
